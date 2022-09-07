@@ -1,0 +1,26 @@
+{
+  "name": "@yuanliwei/music-metadata-browser-es",
+  "version": "2.5.8",
+  "description": "music-metadata-browser es wrapper",
+  "type": "module",
+  "main": "out/lib.js",
+  "scripts": {
+    "build": "npx rollup -c rollup.config.js",
+    "publish": "npm publish --access public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "out",
+    "index.d.ts"
+  ],
+  "author": "yuanliwei",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^14.0.0",
+    "music-metadata-browser": "^2.5.8",
+    "readable-stream": "npm:vite-compatible-readable-stream@^3.6.1",
+    "rollup": "^2.79.0",
+    "rollup-plugin-node-polyfills": "^0.2.1"
+  }
+}
