@@ -14,6 +14,7 @@
     "index.d.ts"
   ],
   "author": "yuanliwei",
+  "repository": "https://github.com/yuanliwei/music-metadata-browser-es",
   "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.2",
